@@ -1,0 +1,68 @@
+{
+  "name": "drupal-node.js",
+  "description": "Push notifications from Drupal.",
+  "version": "1.0.9",
+  "homepage": "https://github.com/beejeebus/drupal-nodejs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beejeebus/drupal-nodejs.git"
+  },
+  "license": "GPL-2.0",
+  "engines": {
+    "node": "4.2.x"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "dependencies": {
+    "express": "4.x",
+    "request": "2.67.x",
+    "body-parser": "1.14.2",
+    "socket.io": "1.x"
+  },
+  "devDependencies": {
+    "mocha": "2.3.x",
+    "nock": "7.0.x",
+    "socket.io-client": "1.x"
+  },
+  "gitHead": "1189eb4dc94e65b6477c3b86988577f3fb5569db",
+  "bugs": {
+    "url": "https://github.com/beejeebus/drupal-nodejs/issues"
+  },
+  "_id": "drupal-node.js@1.0.9",
+  "_shasum": "bba9d874b701920e22a94ccd2e2b4a56a9e9a7a8",
+  "_from": "drupal-node.js@latest",
+  "_npmVersion": "2.9.1",
+  "_nodeVersion": "0.12.3",
+  "_npmUser": {
+    "name": "glekli",
+    "email": "gl@cryptic.zone"
+  },
+  "dist": {
+    "shasum": "bba9d874b701920e22a94ccd2e2b4a56a9e9a7a8",
+    "tarball": "https://registry.npmjs.org/drupal-node.js/-/drupal-node.js-1.0.9.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "beejeebus",
+      "email": "justin.p.randell@gmail.com"
+    },
+    {
+      "name": "glekli",
+      "email": "gl90010@gmail.com"
+    },
+    {
+      "name": "tizzo",
+      "email": "howard@howardtyson.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-13-west.internal.npmjs.com",
+    "tmp": "tmp/drupal-node.js-1.0.9.tgz_1458010894262_0.7831679221708328"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/drupal-node.js/-/drupal-node.js-1.0.9.tgz",
+  "readme": "ERROR: No README data found!"
+}
