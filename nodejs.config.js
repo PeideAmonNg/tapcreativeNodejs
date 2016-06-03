@@ -74,16 +74,16 @@
  * logLevel: the log level to be used by Socket.Io, defaults to '1'.
  */
 settings = {
-  scheme: 'http',
+  scheme: 'https',
   port: 8080,
-  host: 'localhost',
+  host: 'tapcreative-breathalert.rhcloud.com/',
   resource: '/socket.io',
   serviceKey: 'tapcreative_nodejs_service_key',
   backend: {
     port: 80,
-    host: 'localhost',
-    scheme: 'http',
-    basePath: 'tapwebsite/',
+    host: 'tapcreative.services',
+    scheme: 'https',
+    basePath: '/',
     messagePath: '/nodejs/message/'
   },
   debug: false,
